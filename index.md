@@ -12,6 +12,8 @@ The anonymized dataset is available in [this repository](https://github.com/aaro
     - rewriting a few cute alternative spellings (e.g. "trans4mational" for "transformational" and "greatful" for "grateful"),
     - translating one contract from Spanish to English.
 
+Beware that they have not been carefully deduplicated.
+
 Here are two illustrative visualizations. The remaining sections record a number of interesting statistics.
 
 ![Word Cloud](wordcloud.png)
@@ -24,11 +26,11 @@ Here are two illustrative visualizations. The remaining sections record a number
 
 Taking the empirical distribution as a stand-in for the true distribution:
 
-> **P(two randomly chosen participants have the exact same contract) ≈ 0.23%**
+> **P(two randomly chosen participants have the exact same contract) ≈ 0.23%**.
 
-The most common contract — *(loving, joyful, powerful)* — has been independently chosen by **8 different people**.
+<!-- The most common contract — *(loving, joyful, powerful)* — has been independently chosen by **8 different people**. -->
 
-If the three words were drawn independently from the marginal word distribution, the contract *(joyful, loving, free)* would arise with probability **~0.026%** (~1 in 3,900). The probability that two specific people both land on it is **~1 in 15 million**!!
+If the three words were drawn independently from the marginal word distribution, the contract *(joyful, loving, free)* would arise with probability **~0.026%** (~1 in 3,900), and the probability that two specific people both land on it is **~1 in 15 million**!!
 
 ---
 
@@ -79,7 +81,7 @@ The *strength* family (brave, powerful, courageous, strong) and the *warmth* fam
 
 ## Five further tidbits
 
-**1. Contract twins** — 48.5% of participants share their exact contract with at least one other person. 420 contracts are completely unique; 1 contract is shared by 8 people.
+**1. Contract twins** — 48.5% of participants share their exact contract with at least one other person. <!-- 420 contracts are completely unique; 1 contract is shared by 8 people. -->
 
 **2. Sworn enemies** — *compassionate* (104 appearances) and *passionate* (135 appearances) have **never appeared in the same contract**, whereas random chance (and the assumption that words are uncorrelated) would predict ~17 co-occurrences. They apparently feel redundant even though they mean different things. Other notable never-pairs: *joyful + worthy*, *empathetic + joyful*.
 
@@ -154,4 +156,4 @@ Uniqueness is estimated using the independence model (P = product of individual 
 
 ## Most unique and most prototypical contract overall
 
-The most prototypical contract in the full dataset is ***(loving, powerful, joyful)***, which also happens to be the most common contract (8 appearances). The most unique contract overall is ***(open, amazing, unconditional)***, combining three rare words to produce the lowest estimated probability of any contract in the data.
+The most prototypical contract in the full dataset is ***(loving, powerful, joyful)***.<!--, which also happens to be the most common contract (8 appearances).--> The most unique contract overall is ***(open, amazing, unconditional)***, combining three rare words to produce the lowest estimated probability of any contract in the data.
