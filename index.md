@@ -1,4 +1,4 @@
-# Statistical Report
+# Atlas Contract Statistics
 
 ## Data
 
