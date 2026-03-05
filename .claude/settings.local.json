@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(venv/bin/python clean.py)",
+      "Bash(venv/bin/python -c \":*)",
+      "Bash(venv/bin/pip install openpyxl -q)",
+      "Bash(venv/bin/python -:*)",
+      "Bash(xxd)",
+      "Bash(python3 -:*)",
+      "Bash(venv/bin/python probability.py)",
+      "Bash(venv/bin/python stats.py)",
+      "Bash(venv/bin/python -c \"import matplotlib; print\\(matplotlib.__version__\\)\")",
+      "Bash(venv/bin/pip install matplotlib wordcloud -q)",
+      "Bash(venv/bin/python export.py)",
+      "Bash(venv/bin/python cohorts.py)",
+      "Bash(venv/bin/python plot.py)",
+      "Bash(fc-list)",
+      "Bash(venv/bin/python -c \"import fonttools; print\\(''ok''\\)\")",
+      "Bash(venv/bin/pip list)",
+      "Bash(venv/bin/python -c \"from fontTools.ttLib import TTCollection; print\\(''ok''\\)\")"
+    ]
+  }
+}
