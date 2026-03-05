@@ -133,11 +133,11 @@ Here are the top 5 adjectives in each cohort. (Here and below, we restrict to th
 
 ---
 
-## Most unique and most prototypical contract per cohort
+## Most unique and most unifying contract per cohort
 
-Uniqueness is estimated using the independence model (P = product of individual word frequencies). The most unique player has the contract least likely to arise by chance; the most prototypical has the contract most consistent with the overall distribution.
+Uniqueness is estimated using the independence model (P = product of individual word frequencies). The most unique player has the contract least likely to arise by chance; the most unifying has the contract most consistent with the overall distribution.
 
-| Cohort | Most unique (lowest P) | Most prototypical (highest P) |
+| Cohort | Most unique (lowest P) | Most unifying (highest P) |
 |--------|----------------------|-------------------------------|
 | LAS7 | worthy, caring, accepting | loving, joyful, powerful |
 | LAS8 | fierce, responsible, committed | loving, compassionate, courageous |
@@ -154,6 +154,6 @@ Uniqueness is estimated using the independence model (P = product of individual 
 
 ---
 
-## Most unique and most prototypical contract overall
+## Most unique and most unifying contract overall
 
-The most prototypical contract in the full dataset is ***(loving, powerful, joyful)***.<!--, which also happens to be the most common contract (8 appearances).--> The most unique contract overall is ***(open, amazing, unconditional)***, combining three rare words to produce the lowest estimated probability of any contract in the data.
+The most unifying contract in the full dataset is ***(loving, powerful, joyful)***.<!--, which also happens to be the most common contract (8 appearances).--> The most unique contract overall is ***(open, amazing, unconditional)***, combining three rare words to produce the lowest estimated probability of any contract in the data.
