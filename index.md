@@ -2,9 +2,9 @@
 
 ## Data
 
-The dataset consists of 819 contracts across 20 cohorts, collected from various sources. Altogether, it comprises 140 unique adjectives, with 2,459 in total (counting duplicates).
+The dataset consists of 819 contracts across 20 cohorts, collected from various sources. Altogether, it comprises 140 unique adjectives, with 2,459 adjectives in total (counting duplicates).
 
-The anonymized dataset is available in this repository for further play.
+The anonymized dataset is available in [this repository](https://github.com/aaron1729/atlas-contracts) for further play.
 - The raw contracts are available in [`contracts_raw.jsonl`](contracts_raw.jsonl). These have been parsed but not otherwise modified.
 - The cleaned contracts are available in [`contracts_clean.jsonl`](contracts_clean.jsonl), which accounts for
     - standardizing spellings,
@@ -12,7 +12,7 @@ The anonymized dataset is available in this repository for further play.
     - rewriting a few cute alternative spellings (e.g. "trans4mational" for "transformational" and "greatful" for "grateful"),
     - translating one contract from Spanish to English.
 
-Here are two illustrative plots. The remaining sections record a number of interesting statistics.
+Here are two illustrative visualizations. The remaining sections record a number of interesting statistics.
 
 ![Word Cloud](wordcloud.png)
 
@@ -28,7 +28,7 @@ Taking the empirical distribution as a stand-in for the true distribution:
 
 The most common contract — *(loving, joyful, powerful)* — has been independently chosen by **8 different people**.
 
-If the three words were drawn independently from the marginal word distribution, the contract *(joyful, loving, free)* would arise with probability **~0.026%** (~1 in 3,900 people). The probability that two specific people both land on it is **~1 in 15 million pairs**!!
+If the three words were drawn independently from the marginal word distribution, the contract *(joyful, loving, free)* would arise with probability **~0.026%** (~1 in 3,900). The probability that two specific people both land on it is **~1 in 15 million**!!
 
 ---
 
@@ -81,7 +81,7 @@ The *strength* family (brave, powerful, courageous, strong) and the *warmth* fam
 
 **1. Contract twins** — 48.5% of participants share their exact contract with at least one other person. 420 contracts are completely unique; 1 contract is shared by 8 people.
 
-**2. Sworn enemies** — *compassionate* (104 appearances) and *passionate* (135 appearances) have **never appeared in the same contract**, despite chance predicting ~17 co-occurrences. They apparently feel redundant even though they mean different things. Other notable never-pairs: *joyful + worthy*, *empathetic + joyful*.
+**2. Sworn enemies** — *compassionate* (104 appearances) and *passionate* (135 appearances) have **never appeared in the same contract**, whereas random chance (and the assumption that words are uncorrelated) would predict ~17 co-occurrences. They apparently feel redundant even though they mean different things. Other notable never-pairs: *joyful + worthy*, *empathetic + joyful*.
 
 **3. Vocabulary concentration** — Just 7 words account for 50% of all word appearances. The top 5 (*loving, powerful, joyful, passionate, courageous*) fill 45.6% of all slots. At the other extreme, **39 words have been chosen by exactly one person ever**, including: *heart-led, grace-filled, raw, orgasmic, altruistic, exuberant, powerhouse, transcending*.
 
@@ -108,7 +108,9 @@ The *strength* family (brave, powerful, courageous, strong) and the *warmth* fam
 
 ---
 
-## Top 5 adjectives per cohort (player roster)
+## Top 5 adjectives per cohort
+
+Here are the top 5 adjectives in each cohort. (Here and below, we restrict to those cohorts whose entire roster of players and their contracts are included in the dataset.)
 
 | Cohort | Players | Top 5 words |
 |--------|:-------:|-------------|
@@ -125,11 +127,11 @@ The *strength* family (brave, powerful, courageous, strong) and the *warmth* fam
 | ATX15 | 29 | powerful (15), loving (10), joyful (7), passionate (6), authentic (5) |
 | ATX16 | 25 | loving (13), powerful (7), joyful (7), courageous (6), creative (4) |
 
-*Loving* is the top word in 10 of 12 cohorts. LAS12 and ATX15 are the exceptions, both led by *powerful*.
+*Loving* is the top word in 10 of these 12 cohorts. LAS12 and ATX15 are the exceptions, both led by *powerful*.
 
 ---
 
-## Most unique and most prototypical player contract per cohort
+## Most unique and most prototypical contract per cohort
 
 Uniqueness is estimated using the independence model (P = product of individual word frequencies). The most unique player has the contract least likely to arise by chance; the most prototypical has the contract most consistent with the overall distribution.
 
@@ -147,5 +149,9 @@ Uniqueness is estimated using the independence model (P = product of individual 
 | ATX14 | reliable, trustworthy, servant | courageous, loving, powerful |
 | ATX15 | unapologetic, authentic, visionary | loving, powerful, joyful |
 | ATX16 | thoughtful, magical, creative | joyful, loving, strong |
+
+---
+
+## Most unique and most prototypical contract overall
 
 The most prototypical contract in the full dataset is ***(loving, powerful, joyful)***, which also happens to be the most common contract (8 appearances). The most unique contract overall is ***(open, amazing, unconditional)***, combining three rare words to produce the lowest estimated probability of any contract in the data.
